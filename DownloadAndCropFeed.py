@@ -61,7 +61,11 @@ def get_file_sizes(file_path):
         compressed_data = zstd.compress(file.read())
         compressed_size = len(compressed_data)
  
-    return uncompressed_size, compressed_size, compressed_size*100/uncompressed_size
+    return {
+        "Uncompressed": uncompressed_size,
+        "Compressed": compressed_size,
+        "Percentage": compressed_size*100/uncompressed_size
+    }
 
 
 for url in feedsToProxy:
