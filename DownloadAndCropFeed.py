@@ -16,7 +16,7 @@ def ProcessUrl(url):
 	# TODO make sure this has any gzip headers enabled?
 	f = DownloadFile(url)
 
-	print(get_file_sizes(f))
+	print("Original File: ", get_file_sizes(f))
 
 	tree = ET.parse(f)
 	root = tree.getroot()
@@ -36,7 +36,7 @@ def ProcessUrl(url):
 	outFile = Path(f).with_suffix('.proxy.xml')
 	tree.write(outFile)
 
-	print(get_file_sizes(outFile))
+	print("Proxy file: ", get_file_sizes(outFile))
 
 	print('DONE')
 
@@ -61,7 +61,11 @@ def get_file_sizes(file_path):
         compressed_data = zstd.compress(file.read())
         compressed_size = len(compressed_data)
  
-    return uncompressed_size, compressed_size, compressed_size*100/uncompressed_size
+    return {
+        "Uncompressed": uncompressed_size,
+        "Compressed": compressed_size,
+        "Percentage": compressed_size*100/uncompressed_size
+    }
 
 
 for url in feedsToProxy:
