@@ -9,7 +9,7 @@ on:
     - cron:  '0 * * * *' # Every hour. Ref https://crontab.guru/examples.html
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -34,8 +34,8 @@ jobs:
         # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 
-    - name: Using Checkout Action
-      uses: actions/checkout@master
+    # - name: Using Checkout Action
+    #   uses: actions/checkout@master
 
     - name: Manually run script
       run: |
