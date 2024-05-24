@@ -43,7 +43,6 @@ def ProcessUrl(url):
 
 def DownloadFile(url):
     local_filename = url.split('/')[-1] + '.xml'
-    sub_folder = 
     r = requests.get(url)
     # print(r.headers)
     with open(local_filename, 'wb') as f:
