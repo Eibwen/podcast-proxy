@@ -16,7 +16,7 @@ def ProcessUrl(url):
 	# TODO make sure this has any gzip headers enabled?
 	f = DownloadFile(url)
 
-	print(get_file_sizes(f))
+	print("Original File: ", get_file_sizes(f))
 
 	tree = ET.parse(f)
 	root = tree.getroot()
@@ -36,7 +36,7 @@ def ProcessUrl(url):
 	outFile = Path(f).with_suffix('.proxy.xml')
 	tree.write(outFile)
 
-	print(get_file_sizes(outFile))
+	print("Proxy file: ", get_file_sizes(outFile))
 
 	print('DONE')
 
