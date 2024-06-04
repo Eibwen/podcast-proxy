@@ -1,14 +1,14 @@
 <rss xmlns:ns0="http://www.w3.org/2005/Atom" xmlns:ns1="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:ns2="http://purl.org/rss/1.0/modules/content/" version="2.0">
   <channel>
     <ns0:link href="https://feeds.simplecast.com/bOogzwqU" rel="self" title="MP3 Audio" type="application/atom+xml" />
-    <ns0:link href="https://simplecast.superfeedr.com,https://api.prod.stitcher.com/podcast/feeds" rel="hub" />
+    <ns0:link href="https://simplecast.superfeedr.com" rel="hub" />
     <generator>https://simplecast.com</generator>
     <title>The Daily Beans</title>
     <description>The Daily Beans is a women-owned and operated progressive news podcast for your morning commute brought to you by the Webby award-winning host of Mueller, She Wrote, Allison Gill, and comedian/fund-raiser/activist Dana Goldberg. Get your social justice and political news with just the right amount of snark.</description>
     <copyright>2023 MSW Media</copyright>
     <language>en</language>
     <pubDate>Tue, 4 Jun 2024 09:00:00 +0000</pubDate>
-    <lastBuildDate>Tue, 4 Jun 2024 09:00:25 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 4 Jun 2024 23:06:27 +0000</lastBuildDate>
     <image>
       <link>https://mswmedia.com/show/daily-beans/</link>
       <title>The Daily Beans</title>
