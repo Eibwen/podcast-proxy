@@ -8,7 +8,7 @@
     <copyright>2025 MSW Media</copyright>
     <language>en</language>
     <pubDate>Wed, 24 Dec 2025 20:11:55 +0000</pubDate>
-    <lastBuildDate>Wed, 24 Dec 2025 20:12:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 24 Dec 2025 20:16:37 +0000</lastBuildDate>
     <image>
       <link>https://mswmedia.com/show/daily-beans/</link>
       <title>The Daily Beans</title>
@@ -55,8 +55,7 @@ Check out the Video on Meidas Touch</ns1:summary>
 
 Check out the Video on Meidas Touch</ns1:subtitle>
       <ns1:explicit>true</ns1:explicit>
-      <ns1:episodeType>full</ns1:episodeType>
-      <ns1:episode>1797</ns1:episode>
+      <ns1:episodeType>bonus</ns1:episodeType>
     </item>
     <item>
       <guid isPermaLink="false">f9aa7de4-6a79-4c51-a5e8-e063a41b63cf</guid>
