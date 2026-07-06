@@ -8,7 +8,7 @@
     <copyright>2025 MSW Media</copyright>
     <language>en</language>
     <pubDate>Sun, 5 Jul 2026 07:00:00 +0000</pubDate>
-    <lastBuildDate>Sun, 5 Jul 2026 07:00:36 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 6 Jul 2026 03:47:16 +0000</lastBuildDate>
     <image>
       <link>https://mswmedia.com/show/daily-beans/</link>
       <title>The Daily Beans</title>
@@ -294,8 +294,7 @@ Today, Olympic canoeist David Hearn has been federally charged for touching wate
       <ns1:summary />
       <ns1:subtitle />
       <ns1:explicit>true</ns1:explicit>
-      <ns1:episodeType>full</ns1:episodeType>
-      <ns1:episode>1935</ns1:episode>
+      <ns1:episodeType>bonus</ns1:episodeType>
     </item>
     <item>
       <guid isPermaLink="false">7407c9b3-e6d8-4c67-a200-5642a16fba05</guid>
